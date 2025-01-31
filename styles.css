@@ -3,3 +3,7 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
+#doc-container{
+    display: flex;
+    
+}
