@@ -5,5 +5,21 @@
 
 #doc-container{
     display: flex;
+    justify-content: space-around;
     
+}
+
+#image-container, #space-image{
+    position: relative;
+    
+}
+
+#odin-logo{
+    position: absolute;
+    top: 0;
+}
+
+#photo-credit{
+    position: absolute;
+    bottom: 0;
 }
