@@ -33,6 +33,16 @@
     background-size: cover;
     overflow: hidden;
 }
+
+#first-para-container{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+#first-para-container>p:last-child{
+    padding-top: 20px;
+}
+
 #logo-container{
     background-color: rgba(128, 128, 128, 0.568);
     display: flex;
