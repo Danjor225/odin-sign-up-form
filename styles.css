@@ -20,17 +20,52 @@
     
 }
 
-#image-container, #space-image{
-    position: relative;
-    
+#image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    height: 100vh;
+    background-image: url("./images/ken-cheung-nBsIjqKP9hI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+#logo-container{
+    background-color: rgba(128, 128, 128, 0.568);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
 }
 
 #odin-logo{
-    position: absolute;
-    top: 0;
+   flex-basis: 100px;
+   max-width: 100px;
+   flex-shrink: 0;
+}
+
+#logo-container>span{
+    font-family: Norse Font;
+    font-size: 7rem;
+    padding-top: 20px;
+    padding-left: 10px ;
+    color: white;
 }
 
 #photo-credit{
-    position: absolute;
-    bottom: 0;
+   align-self: center;
+   margin-bottom: 10px;
+   color: white;
+   
+}
+
+a{
+    color: white;
+}
+
+
+#form-container{
+    width: 60vw;
+    margin: 40px;
 }
