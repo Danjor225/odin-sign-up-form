@@ -17,9 +17,11 @@
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: -10px 5px 10px grey;
+    background-color: rgba(225, 225, 223, 0.454);
+    max-width: 1500px;
     
 }
-
+/* Left Side */
 #image-container{
     display: flex;
     flex-direction: column;
@@ -60,15 +62,56 @@
    
 }
 
-a{
+#photo-credit>a{
     color: white;
 }
 
-
+/* Right Side */
 #form-container{
     width: 60vw;
-    margin: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+   
+}
+
+#first-para-container, form{
+    padding: 0 40px
+}
+form{
+    background-color: white;
+    /* font-size: 0.75rem; */
+    padding: 20px 30px;
+    overflow: hidden;
+    
+}
+
+#form-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+
+#input-container{
+    display: flex;
+    gap: 20px;
+
+}
+
+#first-row-container, #second-row-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    padding-top: 15px;
+    font-size: 0.75rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+    
+    
 }
