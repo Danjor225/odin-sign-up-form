@@ -75,13 +75,12 @@
    
 }
 
-#first-para-container, form{
+#first-para-container{
     padding: 0 40px
 }
 
 #my-form{
     background-color: white;
-    /* font-size: 0.75rem; */
     padding: 20px 30px;
     overflow: hidden;
     
@@ -91,19 +90,16 @@
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 10px;
-    
 }
 
 #input-container{
     display: flex;
-    gap: 20px;
-
+    gap: 20px
 }
 
 #first-row-container, #second-row-container{
     display: flex;
     flex-direction: column;
-    
 }
 
 label{
@@ -117,7 +113,14 @@ input{
     border-color: #e5e7eb3a;
 }
 
+input:invalid{
+    border-color: lightcoral;
+}
 
+input:focus{
+    border-color: lightblue;
+    box-shadow: 2px 3px 8px lightblue;
+}
     
     
 #submit-container{
