@@ -28,7 +28,7 @@
                     You <em>know</em> you want to!
                 </p>
             </div>
-            <form action="#" method="post">
+            <form id="my-form" action="#" method="post">
                 <header id="form-header">Let's Do This!</header>
                 
                 
@@ -51,14 +51,14 @@
                         <input type="tel" id="pnum" name="phone_num" placeholder="0234 123 123">
                     
                         <label for="p-word-confirm">Confirm Password:</label>
-                        <input type="text" id="p-word-confirm" name="password">
+                        <input type="text" id="p-word-confirm">
                     </div>
                 </div>
 
                 
             </form>
             <div id="submit-container">
-                <button id="submit-button" type="submit">Create Account</button>
+                <button id="submit-button" type="submit" form="my-form">Create Account</button>
                 <p>Already have an account? <a href="#">Log In</a></p>
             </div>
         </div>

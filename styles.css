@@ -78,7 +78,8 @@
 #first-para-container, form{
     padding: 0 40px
 }
-form{
+
+#my-form{
     background-color: white;
     /* font-size: 0.75rem; */
     padding: 20px 30px;
