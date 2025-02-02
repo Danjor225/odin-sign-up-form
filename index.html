@@ -19,13 +19,41 @@
 
 
         <div id="form-container">
-            <p>This is not a real online service! You need to do something like this in your life to help
-                you realise your deepest dreams.
-                Sign up <em>now</em> to get started.
-            </p>
-            <p>
-                You <em>know</em> you want to!
-            </p>
+            <div id="first-para-container">
+                <p>This is not a real online service! You need to do something like this in your life to help
+                    you realise your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>
+                    You <em>know</em> you want to!
+                </p>
+            </div>
+            <form action="#" method="post">
+                <header>Let's Do This!</header>
+                <fieldset>
+                    <legend>Name</legend>
+                    <label for="f-name">First Name</label>
+                    <input type="text" id="f-name" name="first_name" placeholder="Barry">
+                    <label for="s-name">Second Name</label>
+                    <input type="text" id="s-name" name="second_name" placeholder="Cracker">
+                </fieldset>
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="barry@gmail.com">
+                    <label for="p-num">Phone Number</label>
+                    <input type="tel" id="pnum" name="phone_num" placeholder="0234 123 123">
+                </fieldset>
+                <fieldset>
+                    <legend>Password</legend>
+                    <label for="p-word">Password</label>
+                    <input type="password" id="p-word" name="password">
+                    <label for="p-word-confirm">Confirm Password</label>
+                    <input type="text" id="p-word-confirm" name="password">
+                </fieldset>
+
+                <button type="submit">Create Account</button>
+            </form>
         </div>
     </div>  
 </body>
