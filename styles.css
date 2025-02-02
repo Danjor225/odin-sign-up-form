@@ -112,6 +112,11 @@ label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input{
+    border-radius: 5px;
+    border-color: #e5e7eb3a;
+}
+
 
     
     
