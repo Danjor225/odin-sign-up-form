@@ -68,4 +68,7 @@ a{
 #form-container{
     width: 60vw;
     margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
