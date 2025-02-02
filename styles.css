@@ -9,21 +9,62 @@
 
 #doc-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
-#image-container, #space-image{
-    position: relative;
+#image-container{
+    position: absolute;
     
+}
+
+#space-image{
+    height: 100vh;
+    width: 40vw;
+    max-width: none;
+    
+    
+}
+
+#logo-container{
+    background-color: rgba(84, 82, 79, 0.395);
+    position: absolute;
+    top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 #odin-logo{
-    position: absolute;
-    top: 0;
+   
+    width: 30%;
+    flex-shrink: 0;
+}
+
+#odin-logo-annotation{
+    font-size: 7rem;
+    font-family: Norse Font;
+    color: white;
+    padding-top: 20px;
+    
+}
+
+#photo-credit{
+   
+    color: white;
+    padding-bottom: 10px;
+    flex-shrink: 0;
+}
+a{
+    color: inherit;
 }
 
 #photo-credit{
     position: absolute;
     bottom: 0;
+    left: 50px;
+}
+#form-container{
+ 
 }
